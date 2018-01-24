@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 import cv2
-face_cascade = cv2.CascadeClassifier('D:/dev/opencv/build/etc/haarcascades/haarcascade_frontalface_default.xml')
+face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 class VideoCamera(object):
     def __init__(self):
         # Using OpenCV to capture from device 0. If you have trouble capturing
